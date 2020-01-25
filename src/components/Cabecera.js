@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Formulario from './Tasks2';
+// import Formulario from './Tasks2';
 
 class Cabecera extends Component{
 
     render(){
         return (
     
-        <div></div>
+        <div class = "searcher">
+            <input type="text" id="search" placeholder="Search Photos"></input>
+            <button onClick={this.SearchInformation}>Search</button>
+        </div>
         )
     }
     
