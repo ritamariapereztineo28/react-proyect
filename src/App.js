@@ -4,6 +4,7 @@ import './App.css';
 import './Api.js';
 // import Routers from './Routers';
 import Search from './components/Search.js'
+import Container from './components/Container.js'
 // import cocoApi from './googleApi';
 import {
   BrowserRouter as Router,
@@ -13,41 +14,34 @@ import {
 } from "react-router-dom";
 
 class App extends Component{
-  constructor(){
-    super();
   
-  this.state = {
-    
-    
-  }
-  }
   
   render(){
     
     return(
-      
       <Router>
       <div>
-        <nav class="navbar navbar-default" role="navigation">
-          <ul class="nav navbar-nav navbar-center">
+        <nav className="navbar navbar-default" role="navigation">
+          <ul className="nav navbar-nav navbar-center">
             <li>
               <Link to="/">Home</Link>
             </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right"> <li>
+            <ul className="nav navbar-nav navbar-right"> <li>
               <Link to="/about">About </Link>
             </li>
             <li>
-              <Link to="/users">Contactos</Link>
+              <Link to="/users">Contacts
+              </Link>
             </li>
           </ul>
         </nav>
         <Switch>
           <Route path="/about">
-            
+          <Container/>
           </Route>
           <Route path="/topics">
-            hhhh
+          jsjsjs
           </Route>
           <Route path="/">
             <Search />

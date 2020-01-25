@@ -13,15 +13,48 @@
   line-height: 1.5;
   border-radius: 0.25rem;
 }
-input{
-   
+#container{
+    width:30%;
+    height: 40em;
+    margin:auto;
+    margin-top: 1%;
+    margin-right:0.7m;
+    margin-left:1em;
+    margin-bottom:2em;
+    padding:2%;
+    background :#FE8F4C;
+    display:inline-flex;
+    position:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    transition: 1s all;
+    border-radius: 2em;
+    /* border:0.5em rgba(213, 243, 251, 0.883) solid; */
+    box-shadow: 0em 0.5em 1em 0.5em rgb(255, 255, 255);
+
+}
+
+#container:hover{
+width:32%;
+
+opacity:0.9;
+/* border:0.1em solid; */
+box-shadow: 0em 0.5em 2em 0.5em rgb(218, 209, 209);
+
+/* border-color: rgb(255, 255, 255); */
 }
 .searcher:hover{
     width:32%;
     height: 14em;
 
 }
-
+#image{
+    width:30%;
+    margin:auto;
+    margin-top: -30%;
+    border-radius: 5em 5em;
+}
 .btn{
     position: relative;; 
     width:100%; left:0;
