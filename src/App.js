@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './Api.js';
 // import Routers from './Routers';
-import Cabecera from './components/Cabecera.js'
+import Search from './components/Search.js'
 // import cocoApi from './googleApi';
 import {
   BrowserRouter as Router,
@@ -21,19 +21,7 @@ class App extends Component{
     
   }
   }
-  SearchInformation(){
-    // let clientId = '96b6b151da73dca0f9a6b846ce863cae14d22f2f7433084ba441ca60e5f8824c'
-    // let wtf = "flower"
-    let url= "https://api.unsplash.com/search/photos/?client_id=96b6b151da73dca0f9a6b846ce863cae14d22f2f7433084ba441ca60e5f8824c&query=flower";
-    
-    fetch(url)
-    .then(function(data){
-        console.log(data.json());
-    })
-    
-
-}
-
+  
   render(){
     
     return(
@@ -56,13 +44,13 @@ class App extends Component{
         </nav>
         <Switch>
           <Route path="/about">
-            hhhh
+            
           </Route>
           <Route path="/topics">
             hhhh
           </Route>
           <Route path="/">
-            <Cabecera />
+            <Search />
           </Route>
         </Switch>
 

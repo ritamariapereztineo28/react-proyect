@@ -1,0 +1,31 @@
+.searcher{
+    background-color:rgb(218, 155, 141);
+    width:30%;
+    height: 13em;
+    align-items: center;
+    margin:auto;
+    position: center;
+    padding: 1%;
+    transition: 1s all;
+   border: 1px solid transparent;
+  
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+input{
+   
+}
+.searcher:hover{
+    width:32%;
+    height: 14em;
+
+}
+
+.btn{
+    position: relative;; 
+    width:100%; left:0;
+    text-align:center;
+    margin:auto;
+
+}
