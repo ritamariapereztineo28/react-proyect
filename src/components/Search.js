@@ -3,17 +3,21 @@ import '../App.css';
 // import Formulario from './Tasks2';
 
 class Search extends Component{
-    
-    
+   
     SearchInformation(){
         // let clientId = '96b6b151da73dca0f9a6b846ce863cae14d22f2f7433084ba441ca60e5f8824c'
-        let name="love";
+        let name = document.getElementById("search").value;
+        
         let url= "https://api.unsplash.com/search/photos/?client_id=96b6b151da73dca0f9a6b846ce863cae14d22f2f7433084ba441ca60e5f8824c&query="+name;
         
         fetch(url)
         .then(function(data){
-            console.log(data.json());
+            return (data.json());
         })
+        .then(function(data){
+            console.log(data) 
+        })
+        
         
     }
     
