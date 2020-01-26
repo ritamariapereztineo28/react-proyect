@@ -9,7 +9,7 @@ class Body extends Component{
             <div className="panel panel-default">
             
             <div className="panel-body">
-                hola
+                
             </div>
             </div>
             
