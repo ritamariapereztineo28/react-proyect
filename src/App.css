@@ -31,7 +31,6 @@ hr{
 
 }
 .navbar{
-    /* background :rgb(253, 158, 99); */
     background :rgba(248, 143, 78, 0.603);
     height: 9em;
 
@@ -91,7 +90,6 @@ hr{
     align-content: center;
     transition: 1s all;
     border-radius: 2em;
-    /* border:0.5em rgba(213, 243, 251, 0.883) solid; */
     box-shadow: 0em 0.5em 1em 0.5em rgb(255, 255, 255);
 
 }
@@ -100,10 +98,7 @@ hr{
 width:30.5%;
 
 opacity:0.9;
-/* border:0.1em solid; */
 box-shadow: 0em 0.5em 2em 0.5em rgb(218, 209, 209);
-
-/* border-color: rgb(255, 255, 255); */
 }
 
 #image{
@@ -113,9 +108,6 @@ box-shadow: 0em 0.5em 2em 0.5em rgb(218, 209, 209);
     margin-top: -30%;
     border-radius: 5em 5em;
     border-width: 1em;
-    
-    /* border-style: solid; */
-    /* border:1em 2em 1em 1em rgb(202, 185, 174); */
 }
 .description{
     color: rgba(98, 98, 98, 0.815);
@@ -154,7 +146,6 @@ box-shadow: 0em 0.5em 2em 0.5em rgb(218, 209, 209);
     width:20%;
     text-align:center;
     margin:auto;
-    /* background-color: #FE8F4C; */
     background :rgba(255, 156, 94, 0.918);
 
 }
@@ -166,8 +157,6 @@ box-shadow: 0em 0.5em 2em 0.5em rgb(218, 209, 209);
     width: 60%;
     margin: auto;
     height: 40em;
-    /* border-radius: 500em 500em; */
-    /* background-color: coral; */
     background-image: url('https://images.vexels.com/media/users/3/76507/preview2/d196d041ba20ffa2f5be76bbb22205d6-icono-en-construccion.jpg');
     background-repeat: no-repeat;
     background-position: center;

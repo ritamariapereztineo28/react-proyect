@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-// import {datos} from './tasks.json';
 import './App.css';
-import './Api.js';
-// import Routers from './Routers';
 import Search from './components/Search.js'
 import Container from './components/Container.js'
-// import cocoApi from './googleApi';
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,40 +22,28 @@ class App extends Component{
         <nav className="navbar navbar-default" role="navigation">
           <ul className="nav navbar-nav navbar-center">
             <li>
-              <Link to="/">Home</Link>
-            </li>
+              <Link to="/">Home</Link></li>
             </ul>
             <ul className="nav navbar-nav navbar-right"> <li>
-              <Link to="/about">About </Link>
-            </li>
+              <Link to="/about">About </Link></li>
             <li>
               <Link to="/users">Contacts
-              </Link>
-            </li>
+              </Link></li>
           </ul>
         </nav>
         <Switch>
           <Route path="/about">
-          <Container/>
-          
-          </Route>
+              <Container/> 
+              </Route>
           <Route path="/users">
-          <Contacts/>
-
-          </Route>
+            <Contacts/></Route>
           <Route path="/">
             <Search />
             <Body/>
-
-          </Route>
+            </Route>
         </Switch>
-
       </div>
       </Router>
-
-       
-     
-      
     )
   }
 

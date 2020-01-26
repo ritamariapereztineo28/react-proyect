@@ -39,13 +39,11 @@ class Container extends Component{
             return(
                 <div id = "container">
              <img id="image" src={i.img}/>
-             <hr/>
-             
+              <hr/>
             <div className="name">{i.name}</div>
             <div className="description">{i.description}</div>
             </div>
             )
-            
         })
             
         )
