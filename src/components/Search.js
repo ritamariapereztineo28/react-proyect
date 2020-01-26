@@ -3,12 +3,6 @@ import '../App.css';
 // import Formulario from './Tasks2';
 
 class Search extends Component{
-    constructor() {
-        super();
-        this.state = {
-            image: '',
-        }
-    }
     
     
     SearchInformation(){
@@ -22,27 +16,16 @@ class Search extends Component{
         })
         
     }
-    InputChange(i){
-        i.preventDefault();
-        this.props.onAddTodo(this.state);
-        
-        
-        // this.setState({title : '', description: ''})
-      }
-    handleInput(event){
-        const {value, name} = event.target;
-        // console.log('value',value, 'name', name)
-        this.setState({
-            [name]: value
-        })
-      }
     
     render(){
         return (
-    
+            <div>
         <div className = "searcher">
             <input type="text" className="form-control" id="search" onChange={this.handleInput} placeholder="Search Photos" name="image"></input>
-            <br/><button className="btn" onClick={this.SearchInformation}>Search</button>
+            <br/>
+            <center><button className="btn" onClick={this.SearchInformation}>Search</button>
+        </center></div>
+
         </div>
         )
     }

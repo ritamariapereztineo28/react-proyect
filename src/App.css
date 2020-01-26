@@ -1,9 +1,18 @@
+body{
+    /* background: rgb(255, 161, 117); */
+}
+
 .searcher{
-    background-color:rgb(218, 155, 141);
-    width:30%;
-    height: 13em;
+    background-image: url('https://crehana-blog.s3.amazonaws.com/media/filer_public/77/61/7761eb89-7536-4187-bb57-b5058fdcbbb5/tipos-de-lentes-y-fotografias-seo-.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size:90% ;
+    width:99%;
+    height: 35em;
+    background-repeat: no-repeat;
     align-items: center;
     margin:auto;
+    margin-top: 2%;
     position: center;
     padding: 1%;
     transition: 1s all;
@@ -13,17 +22,64 @@
   line-height: 1.5;
   border-radius: 0.25rem;
 }
+.principal{
+    padding: 3em;
+    height: 10em;
+
+}
+.navbar{
+    /* background :rgb(253, 158, 99); */
+    background :rgba(255, 128, 48, 0.603);
+
+}
+.nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.6em;
+    padding-right: 1em;
+    font-size: 1.3em;
+}
+#search{
+    width:30%;
+    align-content: center;
+    margin: auto;
+    margin-top: 5%;
+    height: 6em;
+    transition: all 1s;
+}
+#search:hover{
+    opacity:0.9;
+    width: 31%;
+
+}
+.searcher:hover{
+    width:100%;
+    height: 25em;
+
+}
+.search:hover{
+    opacity: 0.1;;
+
+
+}
+.panel{
+    width:90%;
+    height: 60%;
+    margin: auto;
+    margin-top: 5em;
+}
 #container{
     width:30%;
-    height: 40em;
+    height: 22em;
     margin:auto;
-    margin-top: 1%;
-    margin-right:0.7m;
-    margin-left:1em;
-    margin-bottom:2em;
+    margin-top: 5%;
+    /* margin-right:0.7m; */
+    margin-left:2%;
+    margin-bottom:2%;
     padding:2%;
-    background :#FE8F4C;
-    display:inline-flex;
+    margin-right: 0.5em;
+    background: rgb(255, 243, 202);
+
+    display:inline-block;
     position:flex;
     flex-wrap: wrap;
     text-align: center;
@@ -36,7 +92,7 @@
 }
 
 #container:hover{
-width:32%;
+width:30.5%;
 
 opacity:0.9;
 /* border:0.1em solid; */
@@ -44,21 +100,71 @@ box-shadow: 0em 0.5em 2em 0.5em rgb(218, 209, 209);
 
 /* border-color: rgb(255, 255, 255); */
 }
-.searcher:hover{
-    width:32%;
-    height: 14em;
 
-}
 #image{
-    width:30%;
+    width:40%;
     margin:auto;
+    height:10em;
     margin-top: -30%;
     border-radius: 5em 5em;
+    border-width: 1em;
+    
+    /* border-style: solid; */
+    /* border:1em 2em 1em 1em rgb(202, 185, 174); */
+}
+.description{
+    color: rgba(98, 98, 98, 0.815);
+    padding-top: 7%;
+    width:42%;
+    height:3em;
+    align-content: center;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 1.3em;
+    margin: auto;
+    border-radius: 0.25rem;
+    display:block;
+    position:flex;
+    flex-wrap: wrap;
+}
+.name{
+    color: rgba(255, 255, 255, 0.815);
+    width:42%;
+    height:3em;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    margin: auto;
+    background-color: rgba(248, 206, 160, 0.884);
+    border-color: #fcffffcb;
+    border-radius: 0.25rem;
+    display:block;
+    position:flex;
+    flex-wrap: wrap;
 }
 .btn{
-    position: relative;; 
-    width:100%; left:0;
+    position: center; 
+    width:20%;
     text-align:center;
     margin:auto;
+    /* background-color: #FE8F4C; */
+    background :rgba(255, 156, 94, 0.918);
 
+}
+.btn:hover{
+    opacity:0.9;
+
+}
+.contacts{
+    width: 60%;
+    margin: auto;
+    height: 40em;
+    /* border-radius: 500em 500em; */
+    /* background-color: coral; */
+    background-image: url('https://images.vexels.com/media/users/3/76507/preview2/d196d041ba20ffa2f5be76bbb22205d6-icono-en-construccion.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }

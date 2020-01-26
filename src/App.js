@@ -12,6 +12,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Body from './components/Body';
+import Contacts from './components/Contacts';
 
 class App extends Component{
   
@@ -20,7 +22,7 @@ class App extends Component{
     
     return(
       <Router>
-      <div>
+      <div className="principal">
         <nav className="navbar navbar-default" role="navigation">
           <ul className="nav navbar-nav navbar-center">
             <li>
@@ -39,12 +41,16 @@ class App extends Component{
         <Switch>
           <Route path="/about">
           <Container/>
+          
           </Route>
-          <Route path="/topics">
-          jsjsjs
+          <Route path="/users">
+          <Contacts/>
+
           </Route>
           <Route path="/">
             <Search />
+            <Body/>
+
           </Route>
         </Switch>
 
