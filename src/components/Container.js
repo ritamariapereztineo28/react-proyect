@@ -38,12 +38,14 @@ class Container extends Component{
         return(this.state.todo.map((i)=>{
             return(
                 <div id = "container">
+            
              <img id="image" src={i.img}/>
-              <hr/>
+             
             <div className="name">{i.name}</div>
             <div className="description">{i.description}</div>
             </div>
             )
+            
         })
             
         )

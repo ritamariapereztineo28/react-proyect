@@ -1,23 +1,24 @@
-body{
-    /* background: rgb(255, 161, 117); */
-}
+
 hr{
     background-color: #F5D0A9;
     height: 0.3%;
 }
 .searcher{
-    background-image: url('https://crehana-blog.s3.amazonaws.com/media/filer_public/77/61/7761eb89-7536-4187-bb57-b5058fdcbbb5/tipos-de-lentes-y-fotografias-seo-.jpg');
+    /* background-image: url('https://crehana-blog.s3.amazonaws.com/media/filer_public/77/61/7761eb89-7536-4187-bb57-b5058fdcbbb5/tipos-de-lentes-y-fotografias-seo-.jpg'); */
+    background-image: url('http://getwallpapers.com/wallpaper/full/4/8/6/699194-widescreen-patagonia-wallpapers-2048x1360-4k.jpg');
+    
     background-attachment: fixed;
     background-position: center;
-    background-size:90% ;
-    width:99%;
+    background-size:99% ;
+    width:100%;
     height: 35em;
     background-repeat: no-repeat;
     align-items: center;
     margin:auto;
     margin-top: 2%;
+    margin-bottom: 10%;
     position: center;
-    padding: 1%;
+    padding: 2%;
     transition: 1s all;
    border: 1px solid transparent;
   
@@ -26,18 +27,19 @@ hr{
   border-radius: 0.25rem;
 }
 .principal{
-    padding: 3em;
-    height: 10em;
+    /* padding: 3em;
+    height: 10em; */
 
 }
 .navbar{
-    background :rgba(248, 143, 78, 0.603);
+    background :rgba(248, 193, 156, 0.945);
     height: 9em;
+    padding: 2%;
 
 }
 .nav{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0.6em;
+    padding: 1em;
     padding-right: 1em;
     font-size: 1.3em;
 }
@@ -56,7 +58,7 @@ hr{
 }
 .searcher:hover{
     width:100%;
-    height: 25em;
+    height: 40em;
 
 }
 .search:hover{
@@ -81,7 +83,7 @@ hr{
     margin-bottom:2%;
     padding:2%;
     margin-right: 0.5em;
-    background: rgb(255, 243, 202);
+    background: rgb(250, 237, 196);
 
     display:inline-block;
     position:flex;
