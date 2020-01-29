@@ -8,7 +8,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Body from './components/Body';
 import Contacts from './components/Contacts';
 
 class App extends Component{
@@ -39,7 +38,6 @@ class App extends Component{
             <Contacts/></Route>
           <Route path="/">
             <Search />
-            <Body/>
             </Route>
         </Switch>
       </div>
